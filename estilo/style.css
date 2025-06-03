@@ -27,24 +27,24 @@ header h1{
     padding: 25px 0px 10px 0px;
 }
 header p{
-    padding: 5px 0px 14px 0px;
+    padding: 5px 0px 25px 0px;
 }
 nav{
     background-color: var(--verde-escuro1);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 20px;
+    height: 40px;
+    padding: 0px 0px 0px 5px;
 }
 nav a{
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 0px 0px 2px 5px;
 }
 nav a:hover{
-    transition: .3s;
-    background-color: lightcyan;
-    color: black;
+    transition: .1s;
+    background-color: transparent;
+    color: rgb(173, 241, 173);
 }
 main{
     max-width: 750px;
