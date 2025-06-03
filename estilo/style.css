@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+:root{
+    --verde-escuro1: #1A5C38;
+    --verde-claro1: #3CD681;
+    --verde-claro2: #84E1AD;
+    --cor-do-aside: #C5EBD6;
+}
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: var(--verde-claro2);
+}
+
+header{
+    background: linear-gradient(to bottom, var(--verde-claro1),var(--verde-escuro1));
+    color: white;
+    text-align: center;
+    height: 125px;
+}
+header h1{
+    padding: 25px 0px 10px 0px;
+}
+header p{
+    padding: 5px 0px 14px 0px;
+}
+nav{
+    background-color: var(--verde-escuro1);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 20px;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 0px 2px 5px;
+}
+nav a:hover{
+    transition: .3s;
+    background-color: lightcyan;
+    color: black;
+}
+main{
+    max-width: 750px;
+    margin: auto;
+    background-color: white;
+}
+article{
+    padding: 10px;
+}
+article h1{
+    font-family: "idroid";
+    color: #26774a;
+    text-indent: 5px;
+    margin: 15px 0px 5px 0px;
+}
+article h2{
+    background: linear-gradient(to right, rgba(74, 167, 74, 0.486), transparent);
+    color: #26774a;
+    font-family: "idroid";
+    text-indent: 5px;
+    margin: 10px 0px;
+}
+article p{
+    font-family: "Roboto", sans-serif;
+    text-indent: 40px;
+    margin: 15px;
+}
+article a{
+    text-decoration: none;
+    color: #14492c;
+}
+article a:hover{
+    background-color: #4e8868;
+    color: azure;
+}
+article img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+aside{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    height: auto;
+}
+aside ul{
+    columns: 2;
+}
+aside h3{
+    background-color: #25a15d;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+aside p{
+    text-indent: 40px;
+    padding: 13px 7px 17px 7px; 
+}
+footer{
+    background-color: #14492c;
+    color: azure;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
